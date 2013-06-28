@@ -1,0 +1,10 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+
+<a href="@{Application.sendEmailText()}">Text Email</a><br/>
+<a href="@{Application.sendEmailHtml()}">HTML Email</a><br/>
+<a href="@{Application.sendEmailBoth()}">Text and HTML Email</a><br/><br/>
+<a href="@{Application.sendEmailTextAttachment()}">Text Email with Attachment</a><br/>
+<a href="@{Application.sendEmailHtmlAttachment()}">HTML Email with Attachment</a><br/>
+<a href="@{Application.sendEmailBothAttachment()}">Text and HTML Email with Attachment</a>
